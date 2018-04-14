@@ -1,0 +1,49 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    /* overflow: hidden; */
+}
+.main{
+    width: 100%;
+    height: 100%;
+    z-index: 999;
+}
+.mainpage{
+    width:58%;
+    height: 100%;
+    margin: 0 auto;
+    /* border: 1px solid; */
+}
+.person-page{
+    height: 170px;
+}
+.person-page img{
+width: 140px;
+height: 140px;
+border-radius: 50%;
+    }
+.person-img{
+    margin-top: 15px;
+    margin-left: 15px;
+    text-align: center;
+    float: left;
+    display: inline;
+}
+.person-label{
+    margin-top: 45px;
+}
+.news{
+    font-size: 16px;
+    font-family: arial,sans-serif;
+}
+.news-body a{
+    font-size: 20px;
+    font-weight: bold
+}
+canvas {
+    position: absolute;
+    /* cursor: none; */
+    z-index: -1;
+}
