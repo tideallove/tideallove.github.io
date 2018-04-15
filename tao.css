@@ -86,7 +86,15 @@ canvas {
     
 }
 
-.person1{
-    background-color: #f1f10d;
+.content1{
+    background-color: #aa6abd27;
 }
 
+.personalinfo{
+    border-style: none;
+    margin-top: 30px;
+}
+
+a:hover{
+    color: aqua;
+}
