@@ -43,8 +43,8 @@ window.onload = function () {
         //canvas.width = document.documentElement.clientWidth;
         //canvas.height = document.documentElement.clientHeight;
 
-        canvas.width = screen.width;
-        canvas.height = screen.height;
+        canvas.width = screen.availWidth;
+        canvas.height = screen.availHeight;
 
         centerX = canvas.width / 2;
         centerY = canvas.height / 2;
