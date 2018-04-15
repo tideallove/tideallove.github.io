@@ -36,9 +36,12 @@ window.onload = function () {
     }
 
     function size() {
-        canvas.width = document.body.scrollWidth;
+        // canvas.width = document.body.scrollWidth;
         // canvas.height = window.innerHeight;
-        canvas.height = document.body.scrollHeight;
+        //canvas.height = document.body.scrollHeight;
+
+        canvas.width = document.documentElement.clientWidth;
+        canvas.height = document.documentElement.clientHeight;
 
         centerX = canvas.width / 2;
         centerY = canvas.height / 2;
