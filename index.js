@@ -35,25 +35,20 @@ window.onload = function () {
         return Math.sqrt(dx * dx + dy * dy);
     }
     
-    $(window).resize(resizeCanvas);
-    function resizeCanvas() {
-           canvas.attr("width", $(window).get(0).innerWidth);
-           canvas.attr("height", $(window).get(0).innerHeight);
-           context.fillRect(0, 0, canvas.width(), canvas.height());
-    };
-    
+
 
     function size() {
 
         //canvas.width = document.body.clientWidth;
         //canvas.height = document.body.clientHeight;
+        canvas.width = "100%";
+        canvas.height = "100%";
 
         centerX = canvas.width / 2;
         centerY = canvas.height / 2;
     }
     size();
 
-    resizeCanvas();
     X = centerX;
     Y = centerY;
 
