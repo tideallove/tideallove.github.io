@@ -73,5 +73,12 @@ canvas {
 }
 
 .panel{
-    border-left-style: dashed;
+    border-left-style: none;
+    border-right-style: none;
+    /* background-color: #fff0ff; */
+    background-color: #cf7367;
+    border-top-color: bisque;
+    border-bottom-color: bisque;
+    
 }
+
