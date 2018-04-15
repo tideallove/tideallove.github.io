@@ -38,8 +38,8 @@ window.onload = function () {
 
 
     function size() {
-        canvas.width = document.documentElement.clientWidth;
-        canvas.height = document.documentElement.clientHeight;
+        canvas.width = document.body.clientWidth;
+        canvas.height = document.body.clientHeight;
         centerX = canvas.width / 2;
         centerY = canvas.height / 2;
     }
