@@ -37,11 +37,13 @@ html,body{
 .person-page{
     height: 170px;
 }
+
 .person-page img{
 width: 140px;
 height: 140px;
 border-radius: 50%;
-    }
+}
+
 .person-img{
     margin-top: 15px;
     margin-left: 15px;
@@ -49,10 +51,12 @@ border-radius: 50%;
     float: left;
     display: inline;
 }
+
 .person-label{
    position: relative;
    left: 10px;
 }
+
 .news{
     font-size: 16px;
     font-family: arial,sans-serif;
@@ -80,5 +84,9 @@ canvas {
     border-top-color: bisque;
     border-bottom-color: bisque;
     
+}
+
+.person1{
+    background-color: #f1f10d;
 }
 
