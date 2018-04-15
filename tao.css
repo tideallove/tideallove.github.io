@@ -50,7 +50,8 @@ border-radius: 50%;
     display: inline;
 }
 .person-label{
-    margin-top: 45px;
+   position: relative;
+   left: 10px;
 }
 .news{
     font-size: 16px;
@@ -65,4 +66,12 @@ canvas {
     position: absolute;
     /* cursor: none; */
     z-index: -1;
+}
+
+#touxiang{
+    margin: 0 auto;
+}
+
+.panel{
+    border-left-style: dashed;
 }

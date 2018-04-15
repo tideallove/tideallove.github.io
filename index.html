@@ -17,15 +17,16 @@
     <canvas id=canvas></canvas>
     <div class="main">
         <div class="mainpage">
-            <div class="panel panel-default person-page person">
-                <div class="person-img" style="width:190px">
-                    <img src="tao.jpg" class="img-responsive" alt="Responsive image">
-                </div>
-                <div class="person-label" style="float:left">
-                    <h2>帅涛</h2>
-                    <p>浪，潇洒，酷贤惠秀外慧中</p>
-                </div>
-                <div style="clear:both"></div>
+            <div class="panel panel-default">
+                  <table id="touxiang">
+                      <tr>
+                          <td><img src="tao.jpg" class="img-responsive" alt="Responsive image" style="width:140px;height:140px;border-radius:50%"></td>
+                          <td class="person-label" align = "right">
+                            <h2>几把帅涛</h2>
+                            <p>浪，潇洒，酷贤惠秀外慧中</p>
+                          </td>
+                      </tr>
+                  </table>
             </div>
 
             <!--以下是内容-->
@@ -43,11 +44,20 @@
             <!--以下是内容-->
             <div class="panel panel-default person">
                 <div class="panel-body news-body">
-                    <a href="">First Paper</a>
-                    <div class="news">
-                        Some words expression! 一些词汇描述。
-                        <a href="#">去首页看看</a>
-                    </div>
+                    <table id="neirong">
+                        <tr>
+                            <td>
+                                <img src="pic1.jpg" class="img-responsive" alt="Responsive image" style="width:140px;height:140px;border-radius:50%">
+                            </td>
+                            <td class="person-label">
+                                <a href="">First Paper</a>
+                                <div class="news">
+                                    Some words expression! 一些词汇描述。
+                                    <a href="#">去首页看看</a>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
                 </div>
             </div>
 
@@ -124,6 +134,9 @@
             </div>
 
         </div>
+    </div>
+    <div>
+        <img src="pic.jpg" alt="二维码.jpg" title="公众号" style="width:140px; position:fixed; right:10px; top:10px" >
     </div>
 
     <script src="index.js"></script>
