@@ -36,7 +36,7 @@ window.onload = function () {
     }
 
     function size() {
-        canvas.width = window.innerWidth-50;
+        canvas.width = window.innerWidth;
         // canvas.height = window.innerHeight;
         canvas.height = document.body.scrollHeight;
 
