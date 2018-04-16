@@ -76,6 +76,30 @@ canvas {
     margin: 0 auto;
 }
 
+
+/* 
+@media(min-width:300px){
+    img{
+        width:10px;
+        height: 10px;
+        box-sizing:border-box;
+        padding:10px;
+    }
+} */
+
+/* @media(max-width:300px){
+    img{
+        width:10%;
+        height:10%;        
+    }
+} */
+
+.personalinfo{
+    border-style: none;
+    margin-top: 30px;
+    
+}
+
 .panel{
     border-left-style: none;
     border-right-style: none;
@@ -90,11 +114,7 @@ canvas {
     background-color: #aa6abd27;
 }
 
-.personalinfo{
-    border-style: none;
-    margin-top: 30px;
-    
-}
+
 
 a:hover{
     color: aqua;
