@@ -114,7 +114,10 @@ canvas {
     background-color: #aa6abd27;
 }
 
-
+#footer{
+    margin-bottom: 15px;
+    text-align: center;
+}
 
 a:hover{
     color: aqua;
