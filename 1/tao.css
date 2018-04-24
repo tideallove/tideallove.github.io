@@ -34,7 +34,7 @@ html,body{
 }
 
 
-.person-page{
+/* .person-page{
     height: 170px;
 }
 
@@ -42,7 +42,7 @@ html,body{
 width: 140px;
 height: 140px;
 border-radius: 50%;
-}
+} */
 
 .person-img{
     margin-top: 15px;
@@ -53,8 +53,9 @@ border-radius: 50%;
 }
 
 .person-label{
-   position: relative;
-   left: 10px;
+    text-align: left;
+    position: relative;
+    left: 10px;
 }
 
 .news{
